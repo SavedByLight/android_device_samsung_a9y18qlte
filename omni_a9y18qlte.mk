@@ -12,9 +12,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from a9y18qlte device
-$(call inherit-product, device/samsung/a9y18qlte/device.mk)
-
 PRODUCT_DEVICE := a9y18qlte
 PRODUCT_NAME := omni_a9y18qlte
 PRODUCT_BRAND := samsung
