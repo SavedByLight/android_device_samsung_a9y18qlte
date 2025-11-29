@@ -72,8 +72,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_FSTAB := device/samsung/a9y18qlte/recovery.fstab
 
-# Recovery
-TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_AVB_ENABLE := false
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
